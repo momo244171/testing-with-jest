@@ -25,7 +25,7 @@ test('The stack should be empty in the beginning', async () => {
 
 test('Check if p-tag has any inner HTML', async () => {
 	let stack = await driver.findElement(By.id('p-tag')).getText();
-	expect(stack).toEqual("");
+	expect(stack).toEqual("Lorem ipsum dolor sit amet");
 });
 
 describe('Clicking "Pusha till stacken"', () => {

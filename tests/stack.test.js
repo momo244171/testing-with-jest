@@ -19,5 +19,5 @@ test('peek on stack with two or more elements returns the top element', () => {
 });
 
 test('isEmpty should return false', () => {
-    expect(stack.isEmpty()).toBe(true)
+    expect(stack.isEmpty()).toBe(false)
 });
